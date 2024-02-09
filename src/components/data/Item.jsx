@@ -33,6 +33,10 @@ export const navList = [
     path: "/login",
     text: "Войти",
   },
+  {
+    path: "/register",
+    text: "Регистрация",
+  },
 
 ];
 
@@ -104,45 +108,46 @@ export const services = [
 export const event = [
   {
     icon: [<i className="fas fa-search-plus text-dark fa-2x"></i>],
-    image: "../assets/img/event-1.jpg",
-    category: "wedding",
+    image: "../assets/img/Баннер биг.png",
+    category: "Свадьба",
   },
   {
     icon: [<i className="fas fa-search-plus text-dark fa-2x"></i>],
-    image: "../assets/img/event-2.jpg",
-    category: "corporate",
+    image: "../assets/img/Баннер биг.png",
+    category: "Праздник",
   },
   {
     icon: [<i className="fas fa-search-plus text-dark fa-2x"></i>],
-    image: "../assets/img/event-3.jpg",
-    category: "wedding",
+    image: "../assets/img/Баннер биг.png",
+    category: "Сувенир",
   },
   {
     icon: [<i className="fas fa-search-plus text-dark fa-2x"></i>],
-    image: "../assets/img/event-4.jpg",
-    category: "corporate",
+    image: "../assets/img/Баннер биг.png",
+    category: "Коллекция",
   },
   {
     icon: [<i className="fas fa-search-plus text-dark fa-2x"></i>],
-    image: "../assets/img/event-5.jpg",
-    category: "buffet",
+    image: "../assets/img/Баннер биг.png",
+    category: "Свадьба",
   },
   {
     icon: [<i className="fas fa-search-plus text-dark fa-2x"></i>],
-    image: "../assets/img/event-6.jpg",
-    category: "cocktail",
+    image: "../assets/img/Баннер биг.png",
+    category: "Праздник",
   },
   {
     icon: [<i className="fas fa-search-plus text-dark fa-2x"></i>],
-    image: "../assets/img/event-7.jpg",
-    category: "buffet",
+    image: "../assets/img/Баннер биг.png",
+    category: "Сувенир",
   },
   {
     icon: [<i className="fas fa-search-plus text-dark fa-2x"></i>],
-    image: "../assets/img/event-8.jpg",
-    category: "cocktail",
+    image: "../assets/img/Баннер биг.png",
+    category: "Коллекция",
   },
 ];
+
 
 export const menu = [
   {
@@ -150,8 +155,8 @@ export const menu = [
     name: "Алое",
     price: "90",
     content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-01.jpg",
+      "Растение с толстыми сочными листьями, которое часто используется в медицинских и косметических целях.",
+    img: "../assets/img/товар 3 (2).png",
     category: "starter",
     btn: "Добавить в корзину",
   },
@@ -160,8 +165,8 @@ export const menu = [
     name: "Кактус",
     price: "90",
     content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-02.jpg",
+      "Растение, которое растет в засушливых местностях и характеризуются наличием колючек вместо листьев. ",
+    img: "../assets/img/товар 4 (2).png",
     category: "starter",
     btn: "Добавить в корзину",
   },
@@ -170,8 +175,8 @@ export const menu = [
     name: "Синие пионы",
     price: "90",
     content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-03.jpg",
+      "Синие пионы являются воплощением мистики, с их нежными и яркими лепестками, наполняющими воздух чудесным ароматом",
+    img: "../assets/img/товар 8 (1).png",
     category: "starter",
     btn: "Добавить в корзину",
   },
@@ -180,132 +185,132 @@ export const menu = [
     name: "Горшок суккулент",
     price: "90",
     content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-04.jpg",
+      " Этот горшочек с растением, характеризуется наличием специальных тканей для запаса воды.",
+    img: "../assets/img/товар 7.png",
     category: "starter",
     btn: "Добавить в корзину",
   },
  
   {
-    id: 9,
-    name: "Argentinian",
+    id: 5,
+    name: "Декор весны",
     price: "90",
     content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-09.jpg",
+      "Декоративные цветы могут использоваться для украшения интерьера, создания букетов, оформления свадеб и других торжественных мероприятий.",
+    img: "../assets/img/image 6.png",
     category: "maincourse",
     btn: "Добавить в корзину",
   },
   {
-    id: 10,
-    name: "Crispy",
+    id: 6,
+    name: "Декор лета",
     price: "90",
     content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-10.jpg",
+      "Декоративные цветы могут использоваться для украшения интерьера, создания букетов, оформления свадеб и других торжественных мероприятий.",
+    img: "../assets/img/image 7.png",
     category: "maincourse",
+    btn: "Добавить в корзину",
+  },
+  {
+    id: 7,
+    name: "Декор зимы",
+    price: "90",
+    content:
+      "Декоративные цветы могут использоваться для украшения интерьера, создания букетов, оформления свадеб и других торжественных мероприятий.",
+    img: "../assets/img/image 7.png",
+    category: "maincourse",
+    btn: "Добавить в корзину",
+  },
+  // {
+  //   id: 12,
+  //   name: "Blooming",
+  //   price: "90",
+  //   content:
+  //     "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
+  //   img: "../assets/img/menu-04.jpg",
+  //   category: "ourspecials",
+  //   btn: "Добавить в корзину",
+  // },
+  // {
+  //   id: 13,
+  //   name: "Декор осени",
+  //   price: "90",
+  //   content:
+  //     "Декоративные цветы могут использоваться для украшения интерьера, создания букетов, оформления свадеб и других торжественных мероприятий.",
+  //   img: "../assets/img/image 9.png",
+  //   category: "ourspecials",
+  //   btn: "Добавить в корзину",
+  // },
+  {
+    id: 8,
+    name: "Жёлтые Пионы",
+    price: "90",
+    content:
+      "Красивые цветы с золотисто- или медно-желтыми цветками диаметром 5-10 см.",
+    img: "../assets/img/image 3.png",
+    category: "drinks",
+    btn: "Добавить в корзину",
+  },
+  {
+    id: 9,
+    name: "Фиолетовые Пионы",
+    price: "90",
+    content:
+      "Фиолетовые пионы символизируют молодость, женственность и защиту от негативной энергии.",
+    img: "../assets/img/image 4.png",
+    category: "drinks",
+    btn: "Добавить в корзину",
+  },
+  // {
+  //   id: 16,
+  //   name: "Crispy Water",
+  //   price: "90",
+  //   content:
+  //     "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
+  //   img: "../assets/img/menu-10.jpg",
+  //   category: "offers",
+  //   btn: "Добавить в корзину",
+  // },
+  {
+    id: 10,
+    name: "Тюльпаны",
+    price: "90",
+    content:
+      "Изящные цветы, символизирующие процветание и наступление весны. Они доступны во множестве разнообразных цветов и оттенков. ",
+    img: "../assets/img/image 4.png",
+    category: "drinks",
     btn: "Добавить в корзину",
   },
   {
     id: 11,
-    name: "Lemon",
+    name: "Розы",
     price: "90",
     content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-01.jpg",
-    category: "maincourse",
+      "Один из самых популярных цветов в мире, который символизирует любовь, красоту и страсть.",
+    img: "../assets/img/1656064121_30-mykaleidoscope-ru-p-bolshoi-buket-rozovikh-roz-krasivo-foto-32 1.png",
+    category: "drinks",
     btn: "Добавить в корзину",
   },
   {
     id: 12,
-    name: "Blooming",
+    name: "Декор осени",
     price: "90",
     content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-04.jpg",
-    category: "ourspecials",
-    btn: "Добавить в корзину",
-  },
-  {
-    id: 13,
-    name: "Алое",
-    price: "90",
-    content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-01.jpg",
-    category: "ourspecials",
-    btn: "Добавить в корзину",
-  },
-  {
-    id: 14,
-    name: "Жёлтые Пионы",
-    price: "90",
-    content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-01.jpg",
-    category: "drinks",
-    btn: "Добавить в корзину",
-  },
-  {
-    id: 15,
-    name: "Фиолетовые Пионы",
-    price: "90",
-    content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-09.jpg",
-    category: "drinks",
-    btn: "Добавить в корзину",
-  },
-  {
-    id: 16,
-    name: "Crispy Water",
-    price: "90",
-    content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-10.jpg",
-    category: "offers",
-    btn: "Добавить в корзину",
-  },
-  {
-    id: 17,
-    name: "Тюльпаны",
-    price: "90",
-    content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-02.jpg",
-    category: "drinks",
-    btn: "Добавить в корзину",
-  },
-  {
-    id: 18,
-    name: "Розы",
-    price: "90",
-    content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-01.jpg",
-    category: "drinks",
-    btn: "Добавить в корзину",
-  },
-  {
-    id: 19,
-    name: "Алое",
-    price: "90",
-    content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-01.jpg",
+      "Декоративные цветы могут использоваться для украшения интерьера, создания букетов, оформления свадеб и других торжественных мероприятий.",
+    img: "../assets/img/image 9.png",
     category: "maincourse",
     btn: "Добавить в корзину",
   },
-  {
-    id: 20,
-    name: "Lemon",
-    price: "90",
-    content:
-      "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
-    img: "../assets/img/menu-01.jpg",
-    category: "offers",
-    btn: "Добавить в корзину",
-  },
+  // {
+  //   id: 20,
+  //   name: "Lemon",
+  //   price: "90",
+  //   content:
+  //     "Consectetur adipiscing elit sed dwso eiusmod tempor incididunt ut labore.",
+  //   img: "../assets/img/menu-01.jpg",
+  //   category: "offers",
+  //   btn: "Добавить в корзину",
+  // },
 ];
 
 export const footerIcon = [
@@ -318,27 +323,25 @@ export const footerIcon = [
   {
     icon: <i className="fab fa-instagram"></i>,
   },
-  {
-    icon: <i className="fab fa-linkedin-in"></i>,
-  },
+ 
 ];
 
 export const footerUnitItem = [
   {
     icon: <i className="fa fa-check text-primary me-2"></i>,
-    name: "Cheese Burger",
+    name: "Быстро",
   },
   {
     icon: <i className="fa fa-check text-primary me-2"></i>,
-    name: "Sandwitch",
+    name: "Качественно",
   },
   {
     icon: <i className="fa fa-check text-primary me-2"></i>,
-    name: "Paneer Burger",
+    name: "Недорого",
   },
   {
     icon: <i className="fa fa-check text-primary me-2"></i>,
-    name: "Special Sweet",
+    name: "Надёжно",
   },
 ];
 
@@ -357,27 +360,27 @@ export const footerUnitContact = [
   },
   {
     icon: <i className="fa fa-clock text-primary me-2"></i>,
-    name: "Режим работы: 24/7",
+    name: "Режим работы: с 9:00-18:00",
   },
 ];
 export const footergallery = [
   {
-    img: "../assets/img/menu-01.jpg",
+    img: "../assets/img/товар 3 (2).png",
   },
   {
-    img: "../assets/img/menu-02.jpg",
+    img: "../assets/img/image 5.png",
   },
   {
-    img: "../assets/img/menu-03.jpg",
+    img: "../assets/img/товар 4 (2).png",
   },
   {
-    img: "../assets/img/menu-04.jpg",
+    img: "../assets/img/товар 7.png",
   },
   {
-    img: "../assets/img/menu-05.jpg",
+    img: "../assets/img/товар 8 (1).png",
   },
   {
-    img: "../assets/img/menu-06.jpg",
+    img: "../assets/img/image 6.png",
   },
 ];
 
@@ -400,21 +403,21 @@ export const contact = [
 ];
 export const blog = [
   {
-    name: "Как добавить больше теста в вашу еду от",
-    img: "../assets/img/blog-1.jpg",
-    day: "16",
-    month: "Sep",
+    name: "Осенний флаурс",
+    img: "../assets/img/image 19.png",
+    day: "09",
+    month: "Февраля",
   },
   {
-    name: "Как добавить больше теста в вашу еду от",
-    img: "../assets/img/blog-2.jpg",
-    day: "16",
-    month: "Sep",
+    name: "Весенний флаурс",
+    img: "../assets/img/image 20.png",
+    day: "09",
+    month: "Февраля",
   },
   {
-    name: "Как добавить больше теста в вашу еду от",
-    img: "../assets/img/blog-3.jpg",
-    day: "16",
-    month: "Sep",
+    name: "Летний флаурс",
+    img: "../assets/img/image 21.png",
+    day: "09",
+    month: "Февраля",
   },
 ];

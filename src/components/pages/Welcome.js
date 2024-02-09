@@ -28,10 +28,10 @@ export default function Welcome() {
                 Узнать больше
               </a>
             </div>
-            <div className="col-lg-5 col-md-12">
+            <div className="col-lg-5 col-md-12 ">
               <img
                 src="assets/img/Group 47745.png"
-                className="img-fluid rounded animated zoomIn"
+                className="img-fluid rounded animated zoomIn rain-animation"
                 alt=""
               />
             </div>

@@ -21,12 +21,13 @@ import Footer from "./components/common/Footer";
 import LoginForm from './components/login/LoginForm';
 import RegisterForm from './components/register/RegisterForm';
 
+
 function App() {
   return (
     <div className="App">
-      <Router>
-      <LoginForm />
-      <RegisterForm />
+     <Router>
+      {/* <LoginForm />
+      <RegisterForm /> */}
         <Header />
         <Routes>
           <Route path="*" element={<PageNotFound />} />
@@ -38,6 +39,9 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/login" element={<LoginForm />} />
+          <Route path="/register" element={<RegisterForm />} />
+
         </Routes>
         <Footer />
       </Router>

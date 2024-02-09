@@ -128,7 +128,7 @@ export default function Menu() {
                         <div className="w-100 d-flex flex-column text-start ps-4">
                           <div className="d-flex justify-content-between border-bottom border-primary pb-2 mb-2">
                             <h4>{item.name}</h4>
-                            <h4 className="text-primary">${item.price}</h4>
+                            <h4 className="text-primary">₽{item.price}</h4>
                           </div>
                           <div className="d-flex">
                             <p className="mb-0 col-md-6">{item.content}</p>

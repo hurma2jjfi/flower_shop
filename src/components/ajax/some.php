@@ -12,7 +12,6 @@
 <body>
     
 
-<script src="ajaxQuery.js"></script>
 
 </body>
 </html>
@@ -43,9 +42,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $conn = null;
 }
 $date = [
-    'name'=> $_POST['name'],
-    'email'=> $_POST['email'],
-    'title'=> $_POST['title']
+    'name'=> $_REQUEST['name'],
+    'email'=> $_REQUEST['email'],
+    'title'=> $_REQUEST['title']
 ];
 
 $connect = new PDO('mysql:host=localhost; dbname=flower_shop' , 'root', '');

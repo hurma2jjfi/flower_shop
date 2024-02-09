@@ -1,0 +1,103 @@
+.auth__style__register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-image: url('');
+    background-size: cover; /* This property ensures that the background image covers the entire container */
+    background-position: center; /* Center the background image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+  
+  .auth__style__register h2 {
+    margin-bottom: 20px; /* Add some bottom margin to the heading */
+  }
+  
+
+  .btn-log-reg {
+    padding: 15px 20px;
+    background-color: #d4a762;
+    color: white;
+    width: 63vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Add smooth transitions for background color and scale */
+  
+    animation-name: scaleButton;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes scaleButton {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+  }
+
+  
+  .btn-log-reg:hover {
+    background-color: #d4a762;
+    animation-name: colorPulse;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+
+  .btn-log-reg:hover {
+    background-color: black;
+    transition: 1.2s;
+  }
+  
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 20px; 
+  }
+
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 20px; 
+  }
+
+  .auth__style__register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Animation for register form */
+  .auth__style__register input[type="email"],
+  .auth__style__register input[type="password"],
+  .auth__style__register {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both; /* Keep the final state after the animation ends */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animation for error message */
+  .error {
+    color: #ff0000;
+    animation-name: slideInFromLeft;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+
+ 

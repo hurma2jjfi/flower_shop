@@ -2,10 +2,45 @@ import React from "react";
 import { faces, features } from "../data/Item";
 import Heading from "../common/Heading";
 import CommonHeading from "../common/CommonHeading";
-
+import { Carousel } from 'react-bootstrap';
 export default function About() {
   return (
     <>
+    <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="assets/img/1655989990_18-mykaleidoscope-ru-p-tsveti-na-stole-krasivo-foto-18 1.png"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h1 className="one">Красивые цветы для яркого настроения</h1>
+            <p className="one">Погрузитесь в мир красок и ароматов.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="assets/img/image 22.png"
+            alt="Second slide"
+          />
+          <Carousel.Caption>
+            <h1 className="one">Свежие композиции для особого случая</h1>
+            <p className="one">Найдите идеальный букет для любого повода.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="assets/img/Баннер биг (1).png"
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+            <h1 className="one">Уютные растения для вашего дома</h1>
+            <p className="one">Превратите свое окружение в зеленый оазис.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
       {/* <Heading title="About" subtitle="Home" heading="About Us" /> */}
       <div className="container-fluid py-6">
         <div className="container">
@@ -41,7 +76,6 @@ export default function About() {
           </div>
         </div>
       </div>
-
       <div className="container-fluid faqt py-6">
         <div className="container">
           <div className="row g-4 align-items-center">

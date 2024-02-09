@@ -55,6 +55,58 @@ h4, h5, h6, .h4, .h5, .h6 {
   }
 
 
+  .one {
+    color: #FFFFFF;
+  }
+
+  .carousel-item h1.one,
+.carousel-item p.one {
+  animation: fadeInUp 2s ease both, scaleIn 1.5s cubic-bezier(0.39, 0.575, 0.565, 1) both, fadeOut 2s ease 2s both;
+  
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+  
+.rain-animation {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .rain-animation::before {
+    content: "";
+    position: absolute;
+    top: -50px; /* Начальное положение за пределами блока */
+    width: 3px;
+    height: 3px;
+    background-image: url('https://gagaru.club/uploads/posts/2023-06/1685818510_gagaru-club-p-tsvetochki-sakuri-vkontakte-24.png'); /* Изображение цветочка */
+    animation: rain 2s linear infinite; /* Анимация дождя */
+  }
+  
+  @keyframes rain {
+    to {
+      top: 100%; /* Конечное положение внизу блока */
+    }
+  }
+
+  
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 50%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
 /*** Button Start ***/
 .btn.btn-primary {
     border: 0;

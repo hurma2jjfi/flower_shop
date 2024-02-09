@@ -4,10 +4,11 @@ $(document).ready(function (){
       var contentValue = $('textarea.content').val();
 
       $.ajax({
-        method: "POST",
         url: "some.php",
+        method: "POST",
         data: { title: titleValue, content: contentValue }
       });
+
     $('input.title').val('');
     $('textarea.content').val('');
     });

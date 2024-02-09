@@ -4,11 +4,15 @@ import {
   footerUnitContact,
   footerUnitItem,
   footergallery,
+  menu,
 } from "../data/Item";
 
 export default function Footer() {
   return (
     <>
+    
+
+    
       <div
         className="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp"
         data-wow-delay="0.1s"
@@ -38,7 +42,7 @@ export default function Footer() {
             </div>
             <div className="col-lg-3 col-md-6">
               <div className="footer-item">
-                <h4 className="mb-4">Специальные предложения</h4>
+                <h4 className="mb-4">Почему именно мы?</h4>
                 <div className="d-flex flex-column align-items-start">
                   {footerUnitItem.map((val, index) => (
                     <a className="text-body mb-3" href="" key={index}>
@@ -61,24 +65,25 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <div className="footer-item">
-                <h4 className="mb-4">Социальная галерея</h4>
-                <div className="row g-2">
-                  {footergallery.map((img, index) => (
-                    <div className="col-4" key={index}>
-                      <img
-                        src={img.img}
-                        className="img-fluid rounded-circle border border-primary p-2"
-                        alt=""
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
+  <div className="footer-item">
+    <h4 className="mb-4">Галерея цветов</h4>
+    <div className="row g-2">
+      {footergallery.map((img, index) => (
+        <div className="col-4" key={index}>
+          <img
+            src={img.img}
+            className="img-fluid rounded-circle border border-primary p-2"
+            alt=""
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </div>
+      
     </>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './LoginForm.css';
 
 const LoginForm = () => {
   const [email, setEmail] = useState('');
@@ -26,12 +27,17 @@ const LoginForm = () => {
   };
 
   return (
-    <div>
-      <h2>Авторизация</h2>
+    <div className='auth__style'>
+      <h1>Авторизация</h1>
       <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Почта" />
-      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Пароль" />
-      <button onClick={handleLogin}>Вход</button>
-      {error && <p>{error}</p>}
+      <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Пароль" /> 
+      <label class="checkbox__label">
+  <input type="checkbox" name="" id="" className='checkbox__login' />
+  <span class="checkbox__text">Запомнить меня</span>
+</label>
+      <button className='btn-log-reg' onClick={handleLogin}>Вход</button>
+     
+      {error && <p className='error'>{error}</p>}
     </div>
   );
 };

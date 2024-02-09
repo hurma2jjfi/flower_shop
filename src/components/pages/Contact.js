@@ -28,7 +28,7 @@ export default function Contact() {
 работающую контактную форму с помощью Ajax и PHP за несколько минут. Просто
 скопируйте и вставьте файлы, добавьте немного кода, и все готово.
                 </p> */}
-                <form className="forms_contact" method="post" action="some.php">
+                <form className="forms_contact" method="post" action="C:\Users\USER\Desktop\flower-shop\src\components\ajax\some.php">
                   <input
                     type="text"
                     className="w-100 form-control p-3 mb-4 border-primary bg-light"
@@ -49,7 +49,7 @@ export default function Contact() {
                     name="title"
                   ></textarea>
                   <button
-                    className="w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill"
+                    className="button.submit w-100 btn btn-primary form-control p-3 border-primary bg-primary rounded-pill"
                     type="submit"
                   >
                     Отправить
@@ -87,6 +87,7 @@ export default function Contact() {
   referrerPolicy="no-referrer-when-downgrade"
 ></iframe>
       </div>
+<script src="ajaxQuery.js"></script>
     </>
 
 

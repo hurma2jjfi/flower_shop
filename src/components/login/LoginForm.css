@@ -1,0 +1,119 @@
+.auth__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-image: url('');
+    background-size: cover; /* This property ensures that the background image covers the entire container */
+    background-position: center; /* Center the background image horizontally and vertically */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+}
+
+  
+  .auth__style h2 {
+    margin-bottom: 20px; /* Add some bottom margin to the heading */
+  }
+  .auth__style {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Animation for login form */
+  .auth__style input[type="email"],
+  .auth__style input[type="password"],
+  .auth__style {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both; /* Keep the final state after the animation ends */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animation for error message */
+  .error {
+    color: #ff0000;
+    animation-name: slideInFromLeft;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+
+
+  input {
+    border: 1px solid #d4a762;
+    border-radius: 2px;
+    height: 50px;
+    width: 600px;
+    margin-bottom: 20px;
+    
+  }
+
+  .checkbox__login {
+    margin-right: 61vh;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d4a762;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  .checkbox__label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox__login {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d4a762;
+    border-radius: 3px;
+    margin-right: 8px; 
+    outline: none;
+    transition: all 0.3s ease;
+    margin-right: 450px;
+  }
+  
+  
+  .checkbox__text {
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 15px; 
+    right: 440px;
+  }
+ 
+  
+  @media (max-width: 320px) {
+    input {
+      width: 280px; /* Adjust width for mobile layout */
+    }
+  
+    .checkbox__login {
+      margin-right: 130px; /* Adjust margin for mobile layout */
+    }
+  
+    .checkbox__text {
+      right: 120px; /* Adjust position for mobile layout */
+    }
+
+    .btn-log-reg {
+        width: 100px;
+    }
+  }
+  
+  .error{
+    color: red;
+  }
+
+

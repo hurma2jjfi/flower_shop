@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './RegisterForm.css';
 
 const RegisterForm = () => {
   const [email, setEmail] = useState('');
@@ -16,7 +17,7 @@ const RegisterForm = () => {
       });
 
       if (response.ok) {
-        // Handle successful registration (e.g., show success message)
+       
       } else {
         throw new Error('Не удалось зарегистрироваться');
       }
@@ -26,12 +27,12 @@ const RegisterForm = () => {
   };
 
   return (
-    <div>
-      <h2>Регистрация</h2>
+    <div className='auth__style__register'>
+      <h1>Регистрация</h1>
       <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Почта" />
       <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Пароль" />
-      <button onClick={handleRegister}>Регистрация</button>
-      {error && <p>{error}</p>}
+      <button className='btn-log-reg' onClick={handleRegister}>Регистрация</button>
+      {error && <p className='error'>{error}</p>}
     </div>
   );
 };

@@ -125,7 +125,7 @@ export default function Cart() {
                         </div>
                       </td>
                       <td>
-                        <p className="mb-0 mt-4">{cartProduct.totalPrice} $</p>
+                        <p className="mb-0 mt-4">{cartProduct.totalPrice} ₽</p>
                       </td>
                       <td>
                         <button

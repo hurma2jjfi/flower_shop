@@ -43,7 +43,7 @@ export default function Event() {
               <li className="nav-item p-2">
                 <a
                   className="d-flex py-2 mx-2 border border-primary bg-light rounded-pill"
-                  onClick={() => filterItems("wedding")}
+                  onClick={() => filterItems("Свадьба")}
                 >
                   <span className="text-dark" style={{ width: "150px" }}>
                   Свадьба
@@ -53,30 +53,30 @@ export default function Event() {
               <li className="nav-item p-2">
                 <a
                   className="d-flex mx-2 py-2 border border-primary bg-light rounded-pill"
-                  onClick={() => filterItems("corporate")}
+                  onClick={() => filterItems("Праздник")}
                 >
                   <span className="text-dark" style={{ width: "150px" }}>
-                  Корпоратив
+                  Праздник
                   </span>
                 </a>
               </li>
               <li className="nav-item p-2">
                 <a
                   className="d-flex mx-2 py-2 border border-primary bg-light rounded-pill"
-                  onClick={() => filterItems("cocktail")}
+                  onClick={() => filterItems("Сувенир")}
                 >
                   <span className="text-dark" style={{ width: "150px" }}>
-                  Коктейль
+                  Сувенир
                   </span>
                 </a>
               </li>
               <li className="nav-item p-2">
                 <a
                   className="d-flex mx-2 py-2 border border-primary bg-light rounded-pill"
-                  onClick={() => filterItems("buffet")}
+                  onClick={() => filterItems("Коллекция")}
                 >
                   <span className="text-dark" style={{ width: "150px" }}>
-                    Буффет
+                    Коллекция
                   </span>
                 </a>
               </li>

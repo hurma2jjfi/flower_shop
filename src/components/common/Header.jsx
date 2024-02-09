@@ -12,6 +12,8 @@ export default function Header() {
     dispatch(getCartTotal());
   }, []);
 
+  
+
   const [show, setShow] = useState(false);
   return (
     <>
